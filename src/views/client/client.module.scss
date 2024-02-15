@@ -1,0 +1,33 @@
+.blur_effect {
+  background-color: rgba(255, 240, 230, 0.7);
+  backdrop-filter: blur(3px) /* grayscale(50%) */;
+  filter: blur(.6px);
+  border-radius: 10px;
+  padding: 20px;
+
+
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height:10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bbb !important;
+  border-radius:7px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff !important;
+  border-radius:7px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa !important;
+}
